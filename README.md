@@ -1,0 +1,12 @@
+# MrMK2
+**************
+# Abstract : Pneumonia is a prevalent medical condition characterized by the inflammation of air sacs within the lungs, often resulting from infections caused by bacteria, viruses, or fungi. This inflammatory response leads to a range of symptoms, including persistent cough, fever, shortness of breath, and chest pain. Pneumonia can affect individuals of all ages, with increased severity and risk observed in young children, the elderly, and those with compromised immune systems. Diagnosis involves a combination of clinical evaluation, physical examination, and imaging techniques such as X-rays or CT scans. In our prediction model we’ve used X-ray images of different age groups lungs where some of them has Pneumonia, for training, testing and validating with Deep learning models. The results highlight the effectiveness of classification models in accurately predicting Pneumonia, facilitating timely intervention and personalized treatment plans. The findings of this study hold significant implications for healthcare professionals, enabling them to make informed decisions for Pneumonia prevention and management, thereby improving patient outcomes and quality of life.
+**************
+# Data-set Information : The data-set consists of three folders named test, train and val with test images, train images and validation images of lungs X-ray respectively. Train has 5216 files belonging to 2 classes. Test has 624 files belonging to 2 classes. Validation has 16 files belonging to 2 classes. Class one : NORMAL Class two : PNEUMONIA
+**************
+# Model Building : The model building we use in this data set are, 1. CNN 2. CNN model with pre-processing
+3. VGG16 model 4. VGG16 model with Hyper parameter Tuning
+**************
+# Conclusion : After performing different types of models using the given data-set we can come into a conclusion that the CNN model has best Test accuracy score when compared with other 3 models. Since I’ve run only lesser epochs in these models, I can assure that my machine can train even better with more number of epochs.So this model can help the medical industries to predict who has Pneumonia with the given images.
+**************
+References : The data set which I’ve taken here for Chest X-Ray Images (Pneumonia) from https://www.kaggle.com/datasets/paultimothymooney/ches t-xray-pneumonia Some basic information about the Pneumonia was elaborated in my documentation with the help of https://chat.openai.com/
